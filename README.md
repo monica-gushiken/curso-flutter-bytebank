@@ -1,6 +1,7 @@
-# bank
+# Bytebank
 
-Um projeto com persistência de dados
+Projeto da formação Flutter da Alura.
+- Persistência de dados usando sqflite
 
 ## Getting Started
 

@@ -1,9 +1,11 @@
+import 'package:bank/http/webclient.dart';
 import 'package:flutter/material.dart';
 
 import 'Screens/dashboard.dart';
 
 void main() {
   runApp(BankApp());
+  findAll();
 }
 
 class BankApp extends StatelessWidget {

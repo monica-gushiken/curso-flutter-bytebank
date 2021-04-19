@@ -5,7 +5,7 @@ import 'Screens/dashboard.dart';
 
 void main() {
   runApp(BankApp());
-  findAll();
+  findAll().then((transactions) => print('new transactions $transactions'));
 }
 
 class BankApp extends StatelessWidget {

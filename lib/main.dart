@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'Screens/dashboard.dart';
-import 'models/contact.dart';
+
 
 void main() {
   runApp(BankApp());

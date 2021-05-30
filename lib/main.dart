@@ -1,12 +1,11 @@
-import 'package:bank/http/webclient.dart';
 import 'package:flutter/material.dart';
 
 import 'Screens/dashboard.dart';
+import 'models/contact.dart';
 
 void main() {
   runApp(BankApp());
-  findAll().then((transactions) => print('new transactions $transactions'));
-}
+  }
 
 class BankApp extends StatelessWidget {
   @override
